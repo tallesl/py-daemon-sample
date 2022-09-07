@@ -1,0 +1,6 @@
+[Unit]
+Description=Random Wiki
+
+[Service]
+ExecStart=/usr/bin/python3 /opt/random-wiki.py
+Environment=PYTHONUNBUFFERED=1
